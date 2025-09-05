@@ -36,6 +36,7 @@
       "@ianvs/prettier-plugin-sort-imports"
     ]
   },
+
   "theme": "Catppuccin Mocha",
   "ui_font_size": 14,
   "ui_font_family": "JetBrains Mono",
