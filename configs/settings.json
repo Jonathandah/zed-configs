@@ -1,4 +1,7 @@
 {
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "project_panel": {
     "dock": "right"
   },
@@ -6,13 +9,6 @@
     "git_diff": true
   },
   "base_keymap": "VSCode",
-  "assistant": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
-    },
-    "version": "2"
-  },
   "tabs": {
     "git_status": true
   },
@@ -24,7 +20,7 @@
     "catppuccin": true,
     "svelte": true
   },
-  
+
   "format_on_save": "off",
   "formatter": "prettier",
   "prettier": {
@@ -44,6 +40,6 @@
   "theme": "Catppuccin Mocha",
   "ui_font_size": 14,
   "ui_font_family": "JetBrains Mono",
-  "buffer_font_size": 13,
+  "buffer_font_size": 14.0,
   "buffer_font_family": "JetBrains Mono"
 }

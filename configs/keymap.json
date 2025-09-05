@@ -8,7 +8,10 @@
     "bindings": {
       "cmd-ä": "editor::Format",
       "cmd-å": "editor::ToggleComments",
-      "cmd-ö": "editor::ToggleHunkDiff",
+      "cmd-ö": [
+        "workspace::SendKeystrokes",
+        "cmd-c end enter console.log(\" ~ cmd-v :\",  cmd-v );"
+      ],
       "cmd-y": "editor::Redo"
     }
   }
